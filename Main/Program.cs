@@ -9,7 +9,7 @@ namespace RealtimeRecognition
     //Tutorial: https://docs.microsoft.com/en-us/dotnet/machine-learning/tutorials/object-detection-onnx
     //Generate ONXX method: https://www.customvision.ai/ Azure account needed. Can create for free (f0). TODO: Create own onxx generator
     //Read ONNX model properties: https://github.com/lutzroeder/netron (input & output properties)
-    //PM> Install-Package Microsoft.ML.OnnxRuntime -Version 1.11.0, All all versions use an internal c++ binary dll, but not all versions come with said binary dll, wtf
+    //PM> Install-Package Microsoft.ML.OnnxRuntime -Version 1.11.0, All versions use an internal c++ binary dll, but not all versions come with said binary dll, wtf
 
     public class Program
     {

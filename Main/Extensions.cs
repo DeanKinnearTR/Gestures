@@ -7,7 +7,7 @@ namespace RealtimeRecognition
     {
         public static bool Contains(this string haystack, string needle, StringComparison comparison)
         {
-            return haystack?.IndexOf(needle, comparison) >= 0;
+            return haystack?.IndexOf(needle, comparison) != -1;
         }
 
         public static byte[] ToByteArray(this Stream stream)
